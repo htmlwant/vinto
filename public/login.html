@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo_image.png">
+    <title>VINTU</title>
+</head>
+<body>
+    <form id="loginForm">
+        <div class="login">
+            <div class="background_image">
+                <image src="../image/login_image.png" class="background_image_login"></image>
+            </div>
+            <div class="box_shadow">
+                <div class="box_shadow_border">
+                    <div class="box_shadow_border_item">
+                        <h1><a href="login.html">LOGIN</a></h1>
+                        <div id="errorMessage" class="error"></div>
+                        <div class="login_box">
+                            <div class="username"><input type="text" id="user_id" name="user_id" class="user_name" placeholder="아이디를 입력하세요"></div>
+                            <div class="password"><input type="password" id="user_password" name="user_password" class="user_password" placeholder="패스워드를 입력하세요"></div>
+                            <div><button type="submit" class="login_button">로그인</button></div>
+                            <span class="submit"><a href="register.html">회원가입</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>

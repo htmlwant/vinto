@@ -1,0 +1,22 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none;}
+body{height:100vh; font-family:Arial, Helvetica, sans-serif; background:#ffffff;}
+.login {display:flex; width:100%; height:100vh;}
+.background_image {width:68%; height:100vh; display:flex; justify-content:center; align-items:center; overflow:hidden; position:relative; background: #111;}
+.background_image_login {width:100%; height:100%; object-fit:cover; filter: brightness(0.75);}
+.background_image::after {content: ""; position: absolute; inset: 0; background: linear-gradient( 90deg, rgba(0, 0, 0, 0.05),rgba(0, 0, 0, 0.25));}
+.box_shadow {width:32%; height:100vh; display:flex; align-items:center; justify-content:center; background:#ffffff; padding:40px;}
+.box_shadow_border {width:100%; max-width:430px; padding:60px 45px; background:#ffffff; border:1px solid #eeeeee; border-radius:24px; box-shadow:0 20px 60px rgba(0, 0, 0, 0.08); display:flex; justify-content:center; align-items: center;}
+.box_shadow_border_item {width:100%; text-align:center;}
+.box_shadow_border_item > h1{ margin-bottom:40px;}
+.box_shadow_border_item > h1 > a {color:#e5484d; font-size:48px; font-weight:800; letter-spacing:-2px;}
+.user_name,.user_password {width:100%; height:52px; margin-top:14px; padding:0 18px; background:#f6f7f8; border:1px solid transparent; border-radius:12px; outline: none; font-size: 14px; transition: 0.25s;}
+.user_name::placeholder,.user_password::placeholder{color: #999;}
+.user_name:focus,.user_password:focus {background:#ffffff; border-color:#e5484d; box-shadow:0 0 0 4px rgba(30, 215, 96, 0.10);}
+.login_button {width: 100%;height: 52px; margin-top: 22px; border: none; border-radius:12px; background:#e5484d; color:#ffffff; font-size:15px; font-weight:700; cursor: pointer; transition: 0.25s;}
+.login_button:hover {background:#e5484d; transform:translateY(-2px); box-shadow:0 10px 25px rgba(30, 215, 96, 0.25);}
+.login_button:active {transform: translateY(0);}
+.submit {display:block; margin-top:25px; font-size:14px; color:#777;}
+.submit a {color:#222; font-weight:600; margin-left:5px;}
+.submit a:hover {color: #e5484d;}
+.error {min-height:20px; margin-bottom:5px; color:#e5484d; font-size:13px;}
