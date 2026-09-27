@@ -1,6 +1,6 @@
-# 🎵 VINTURA
+# 🎵 VINTU
 
-VINTURA는 HTML, CSS, JavaScript와 Node.js를 활용하여 개발한 웹 사이트입니다.
+VINTU는 HTML, CSS, JavaScript와 Node.js를 활용하여 개발한 웹 사이트입니다.
 
 프론트엔드 화면 구성부터 백엔드 API와 데이터베이스 연동까지 웹 서비스의 전체적인 구조를 학습하고 직접 구현하기 위해 시작한 개인 프로젝트입니다.
 
